@@ -1,0 +1,114 @@
+.rightbar{
+    flex: 3;
+    top:50px;
+    position: sticky;
+}
+.texttitle{
+    color:black;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: large;
+    font-weight: 600;
+}
+.jobpostcarosula{
+    position: relative;
+    padding: 26px;
+
+}
+.mycard{
+    min-width:300px;
+    max-width: 300px;
+    height: 300px;
+    background-image: linear-gradient(135deg,#4799dc68 10%, #e162a86b 100%);
+    margin: 50px;
+    color: white;
+    cursor: pointer;
+    border: 1rem;
+    
+}
+.modalbody{
+   
+    background-image: linear-gradient(135deg,#dcd247ae 10%, #c698b16b 100%);
+}
+.jobpostcarosula{
+    position: relative;
+    overflow: hidden;
+    padding: 26px;
+
+}
+.contentcontainer{
+    padding: 0 10px;
+ 
+    overflow-x: hidden;
+   scroll-behavior: smooth;
+}
+.btn-next,.btn-pre{
+    border: none;
+    width: 60px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  
+}
+.btn-next{
+    right: 0;
+}
+.btn-next p,.btn-pre p{
+    font-size: 50px;
+    background-color: rgb(0, 0, 0,0.436);
+    box-shadow: 0px 0px 10px 1px black;
+    border-radius: 10px;
+    color: white;
+}
+.openinginfo{
+    padding: 10px 10px;
+    justify-content: space-between;
+}
+.comapnyname{
+    font-weight: 700;
+    font-size: large;
+    color: black;
+}
+.jobtitle{
+    position: relative;
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+
+}
+.experiancerequired{
+    font-weight: 700;
+    font-size: medium;
+    color: black;
+}
+.jobdes{
+    font-weight: 700;
+    font-size: medium;
+    color: black;
+}
+.btnsubmit{
+    display: block;
+    margin: 3rem auto 1rem auto;
+    width: 55%;
+    padding: 0.75rem 1rem;
+    border-radius: 25px;
+    outline: 0;
+    font-size: 1rem;
+    font-family: inherit;
+    cursor: pointer;
+    background-color: #4e65f7;
+    color: white;
+    border: 2px solid transparent;
+    margin-top: auto;
+}
+.modaltitle{
+    text-align: center;
+    margin-bottom: 0;
+    font-style: oblique;
+    font-weight: 600;
+    margin-left: 60px;
+}
